@@ -1,16 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Navigation toggle for mobile view
     const navToggle = document.querySelector('.nav-toggle');
-    const navLinks = document.querySelectorAll('.nav__link');
+    const nav = document.querySelector('.nav ul');
 
     navToggle.addEventListener('click', () => {
-        document.body.classList.toggle('nav-open');
-    });
-
-    navLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            document.body.classList.remove('nav-open');
-        });
+        nav.classList.toggle('nav-open');
     });
 
     // Smooth scrolling for internal links
