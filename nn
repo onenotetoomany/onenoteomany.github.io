@@ -85,4 +85,9 @@
 
     <script src="scripts.js"></script>
 </body>
-</html>
+</html><div class="episode">
+    <h3>Episode [number]: [title]</h3>
+    <p>"[catchy sentence]"</p>
+    <a href="[episode link]" target="_blank">Listen Now</a>
+</div>
+
