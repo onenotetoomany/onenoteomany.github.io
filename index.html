@@ -8,80 +8,37 @@
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="One Note Too Many Logo" class="logo">
-        <nav>
+        <button class="nav-toggle">Menu</button>
+        <nav class="nav">
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#episodes">Episodes</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" class="nav__link">Home</a></li>
+                <li><a href="#episodes" class="nav__link">Episodes</a></li>
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#contact" class="nav__link">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="home">
-        <h1>One Note Too Many</h1>
-        <p class="tagline">The classical, choral and film music hub.</p>
-        <p class="description">In the wake of increasing demand for information, One Note Too Many seeks to make accessible the magic behind every note of every instrument that has beguiled the ears of man since the beginning of time.</p>
-        <div class="highlighted-episodes">
-            <h2>Highlighted Episodes</h2>
-            <div class="episode">
-                <h3>Episode 12: Tar: Narcissism and the separation of art from artist</h3>
-                <p>"Art must stand on its own, devoid of the artist's flaws."</p>
-                <a href="https://open.spotify.com/episode/20IeaJZ2ybRjc5BvWQlZkG?si=hoHfHQaXRUaqiEy3l5urmQ" target="_blank">Listen Now</a>
-            </div>
-            <div class="episode">
-                <h3>Episode 23: The price to pay for genius</h3>
-                <p>"Genius comes at a cost, often paid in solitude and sacrifice."</p>
-                <a href="https://open.spotify.com/episode/2rgmFCYLxFpVnz6Y760OLX?si=fyDCaZMQS-S1pb0y3StPng" target="_blank">Listen Now</a>
-            </div>
-            <div class="episode">
-                <h3>Episode 26: How to make music: the compositional process with Kwaku Boakye Frimpong</h3>
-                <p>"Every composition is a journey, starting from a single note and culminating in a symphony."</p>
-                <a href="https://open.spotify.com/episode/3mfOnBIKy9UJoY9p3bADQ3?si=4jSg9-mHTRaFXoMx1VtUbA" target="_blank">Listen Now</a>
-            </div>
-        </div>
-        <div class="subscription">
-            <h2>Subscription and Listening Options</h2>
-            <p>Listen to One Note Too Many on <a href="https://open.spotify.com/show/73zvmri6JTLPNTfl4dyt4j?si=89aa3d07fc564df4" target="_blank">Spotify</a> and all other major platforms.</p>
-        </div>
-        <div class="newsletter">
-            <h2>Subscribe to our Newsletter</h2>
-            <form action="newsletter.php" method="post">
-                <input type="email" name="email" placeholder="Enter your email">
+    <main>
+        <!-- Your website content here -->
+        <section id="episodes">
+            <!-- Episodes content -->
+        </section>
+        <section id="about">
+            <!-- About content -->
+        </section>
+        <section id="contact">
+            <!-- Contact content -->
+        </section>
+        <section id="newsletter">
+            <form id="newsletter-form">
+                <label for="newsletter-email">Subscribe to our newsletter:</label>
+                <input type="email" id="newsletter-email" required>
                 <button type="submit">Subscribe</button>
             </form>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <section id="about">
-        <h2>About</h2>
-        <p>A BIT ABOUT ME</p>
-        <p>I am Noel Arthur, but I do go by the pseudo name “Urbanese” which you would hear a lot of in the earlier episodes. I am a diagnostic radiographer by profession and a music enthusiast by birth. I have a solid upbringing in the catholic church choir, hence an almost congenital affinity for choral and classical music (western classical and baroque music at least lol). I have just recently discovered an inevitable love for film music, composition and arrangements, of which more things would stem from in due time.</p>
-        <p>WHEN IT ALL STARTED</p>
-        <p>One Note Too Many was a podcast I needed to listen to, especially during the pandemic lockdown seasons, but didn’t have access to. In late December 2022, I finally made the initiative to set up hosting on anchor (now Spotify for podcasters) and my first episode launched in March of 2023. It’s been a rollercoaster of events since.</p>
-        <p>GOAL AND MISSION OF THE PODCAST</p>
-        <p>One Note Too Many simply seeks to bring information (usually gatekept information) about the classical music world to everyone, by integrating the comedic approach with sparse dissemination of technical information.</p>
-    </section>
-
-    <section id="blog">
-        <h2>Blog</h2>
-        <article>
-            <h3>Welcome to One Note Too Many</h3>
-            <p>Welcome to One Note Too Many, your ultimate hub for classical, choral, and film music! My name is Noel Arthur, and I go by the pseudo name “Urbanese.” As a diagnostic radiographer by profession and a music enthusiast by birth, I have always been surrounded by the enchanting world of music. My journey began in the catholic church choir, where I developed a deep love for choral and classical music.</p>
-            <p>The idea for this podcast emerged during the pandemic lockdown seasons when I yearned for a podcast that delved into the intricate details of classical music but found none that resonated with me. Thus, in late December 2022, I decided to take matters into my own hands. By March of 2023, One Note Too Many was born, and what a journey it has been!</p>
-            <p>Our mission is simple yet profound: to democratize access to the world of classical music. We aim to break down the barriers and make this genre accessible to everyone. Whether you are a seasoned musician or someone new to the world of classical music, our podcast has something for you. We blend humor with informative content, ensuring that learning about classical music is both enjoyable and enlightening.</p>
-            <p>Each episode of One Note Too Many is crafted with care, featuring discussions on a wide range of topics from composer highlights and music theory to the behind-the-scenes aspects of being a musician. Our highlighted episodes, such as "Tar: Narcissism and the separation of art from artist," "The price to pay for genius," and "How to make music: the compositional process with Kwaku Boakye Frimpong," showcase the depth and diversity of our content.</p>
-            <p>We invite you to join us on this musical journey. Subscribe to our podcast on Spotify or any other major platform, and don't forget to leave your feedback. Your support helps us continue to bring you quality content that enriches your understanding and appreciation of classical music.</p>
-            <p>Stay tuned for more exciting episodes, blog posts, and, in the near future, our YouTube channel. Thank you for being a part of the One Note Too Many community!</p>
-        </article>
-    </section>
-
-    <footer>
-        <p>Contact: <a href="mailto:noelarthur125@gmail.com">noelarthur125@gmail.com</a></p>
-        <p>Follow on: <a href="https://twitter.com/the_urbanese" target="_blank">Twitter</a> | <a href="https://instagram.com/the_urbanese" target="_blank">Instagram</a></p>
-    </footer>
-
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
+</html>
