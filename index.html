@@ -85,18 +85,3 @@
 
     <script src="scripts.js"></script>
 </body>
-</html><div class="episode">
-    <h3>Episode [number]: [title]</h3>
-    <p>"[catchy sentence]"</p>
-    <a href="[episode link]" target="_blank">Listen Now</a>
-</div>document.addEventListener('DOMContentLoaded', () => {
-    // Add any JS functionality here, such as animations or interactive features
-});<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $email = $_POST['email'];
-    $file = 'subscribers.txt';
-    file_put_contents($file, $email . PHP_EOL, FILE_APPEND);
-    echo "Thank you for subscribing!";
-}
-?>
-
